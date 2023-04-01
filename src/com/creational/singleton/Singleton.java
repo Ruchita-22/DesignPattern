@@ -3,6 +3,7 @@ package com.creational.singleton;
 import java.util.concurrent.locks.Lock;
 
 //https://refactoring.guru/design-patterns/singleton
+
 public class Singleton {
 	// Issue :  We can create multiple obj
 	// Sol : Make constructor private so can't create object from anywhere
